@@ -109,11 +109,22 @@
 		  - make new sheets (w/in same spreadsheet) with just the data you need for 3 types visualizations (make one location based). Please indicate somewhere what kind of visualization you are envisioning for each sheet. make sure to keep a unique id for each row that is consistent with your original sheet's rows.<br />
 		   - Revise your artistic programming-tutorial-without-code if necessary.<br />
 		  - Register with <a href="https://github.com/">GitHub</a>, using your cca email. Opt for a free account if prompted.<br />
-		  - put all work in a folder called Hw2_lastname_firstname. Zip this up so that the file is A1b_lastname_firstname.zip, and email to prof. In the body of the email, include your github username.<br />
+		  - put all work in a folder called A1b_lastname_firstname. Zip this up so that the file is A1b_lastname_firstname.zip, and email to prof. In the body of the email, include your github username.<br />
 		 <br />IN CLASS:<br />
+		 <!-- 1) review more programming basics. 30-40 mins if statments, loops, possibly arrays
+			  2) think about map/ location visualization
+			  3) walk through PImage in Processing
+			  4) simple table/ CSV
+			  5) look at students' work. together? yes.
+			  6) studio time
+			 -->
 		  - Visualizations<br />
+		  - More programming review - if statements, for loops<br />
+		  - functions in Processing: PImage, loadImage(), image(), getRowCount, getFloat, getString, createWriter() and related, map(), <br />
 		  - Load and Save tables<br />
-		  - Forking exercise in github
+		  - look at <a href="media/wk4_corrected.zip">this code corrected 5:49p 9/21</a><br />
+		  - <a href="http://www.git-scm.com/book/en/v1/Getting-Started-Installing-Git">Install git</a><br />
+		  - Introduction to terminal: cd, ls, pwd, mkdir, touch, cp, mv, rm
 	 </p>
 	 
 	
@@ -121,84 +132,119 @@
 	 <span class="weekly2">Sept 28::</span><br />
 	 <p>
 		 Visualization studio<br />
-		<br />
 		 
 		 <br />BEFORE CLASS:<br />
-		 Read: - from Ben Fry, Visualizing Data: <a href="">Mapping</a><br />
-		 Do:
+		 Read: 
+		 <br />- from Ben Fry, Visualizing Data: <a href="media/fry_visualizing_data_ch3.pdf">Mapping</a><br />
+		 - read Chapter 1, <a href="http://www.git-scm.com/book/en/v1/Getting-Started">Getting Started with Git</a>, follow instructions and install if you haven't already, also do the section on set-up<br />
+		 - if you've never used the command line before, you may need to read up a bit: <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line">Command Line for Mac</a>, or <a href="http://www.bleepingcomputer.com/tutorials/windows-command-prompt-introduction/">Command Line for Windows</a><br />
+		 Do:<br />
+		  - A1c :: Finish mapping some data from your digital data selfie. You can use location to show actual location of communication, or have the map be somewhat abstract, representing platform or receiver, for example. The size of the bubbles should represent some aspect of your data, like amount of use. Consider using color as representing some other aspec of your visual, like dominant mood as related to location. Use TSV or CSV files. Submit work via email.
+		 <br />
+		 <br />IN CLASS:<br />
+		  - review maps<br />
+		  - continue basic review of programming - <a href="https://processing.org/tutorials/arrays/">arrays (just check out the first 3 sections )</a>, <a href="https://processing.org/tutorials/objects/">object oriented programming</a><br />
+		  - studio time to mess with code that demos arrays and classes if you want (<a href="media/wk5_code_examples.zip">download zip file</a>)<br />
+		  - studio time with time and bar graphs, and see: <a href="media/fry_visualizing_data_ch4.pdf">Ch4, Time Series</a> and <a href="media/wk5.zip">download this code</a><br />
+		  - git demo, - practice submitting work to github. upload c4_lastname_firstname.pde to the github repository:<br />
+		  - follow these instructions: <a href="https://github.com/SCIMA-300/directions_for_submitting_work/blob/master/DIRECTIONS.md">https://github.com/SCIMA-300/directions_for_submitting_work/blob/master/DIRECTIONS.md</a>, or add via command line or desktop git<br />
+
 	 </p>
 	 
 	 <span class="weekly2">Oct 05::</span><br />
 	 <p>
 		
-		Statistics<br />
+		Time<br />
 		 
 		 <br />BEFORE CLASS:<br />
 		 Read:<br />
-		 Do:
+		  - <a href="media/fry_visualizing_data_ch4.pdf">Ch4, Time Series</a><br />
+		  - read through the following, <a href="https://github.com/SCIMA-300/directions_for_submitting_work/blob/master/DIRECTIONS.md">https://github.com/SCIMA-300/directions_for_submitting_work/blob/master/DIRECTIONS.md</a>. If you want to deepen your use of git, and collaborate with other students in the class, look at <a href="http://www.git-scm.com/book/en/v1/Git-Basics">Git Basics</a><br />
+		 Do:<br />
+		  - this week you have a couple of options. you may continue to develop your map and data visualizations, visualizing new data sets derived from your data selfie, or you may work with new code offered in the reading and <a href="media/wk5.zip">here</a> to visualize some data from your data selfie over time. If you are really stuck with the code, please be in touch and we can come up with the right approach for your level. Upload your work into the A1d repository on GitHub here : <a href="https://github.com/SCIMA-300">https://github.com/SCIMA-300</a>with the lastname_firstname naming schema (following the <a href="https://github.com/SCIMA-300/directions_for_submitting_work/blob/master/DIRECTIONS.md">instructions above</a>)<br />
+		 <br />IN CLASS:<br />
+		 - more basic programming review<br /> <!--also review map(), using a for loop to move through an array, getFloat(), getRowCount() -->
+		 - review homework, look at examples<br /> <!--where are we in acquire/parse/filter/mine/represent/refine/interact? what is the next step? where to get something interesting? review classic graph types-->
+		 <!-- - Making meaning with quantitative info. showing quantitative info visually, using tags and labels. see fry, ch 4, also text(), rect(), textSize(), fill(), etc. -->
+		 - Studio time: Play with <a href="media/wk5_code_examples.zip">sample code of arrays and objects</a><br />
+		 - Assess where you are in the process visualizing your data selfie in terms of Ben Fry's <em>acquire > parse > filter > mine > represent > refine > interact</em>, and where you need to go next in order to represent some aspect of your data selfie in a meaningful way. Do you need to go back to <em>acquire</em> and generate a wholly new data set? or just back to <em>filter</em> to sift through data you have and represent it in a new way? Or, are you ready to <em>refine</em> your visualization? Decide what is next, define your goal for the next week and then list out the steps to getting there and also identify your biggest challenge. Post this list of steps to <a href="https://github.com/SCIMA-300/c5">the c5 repository on GitHub</a> <br />
+		 - Work on the assignment for Oct 12th.<br />
+	     - more on git and GitHub<br />
+		 		  
 	 </p>
+	 <span class="weekly2">Oct 08::</span> <br />
+	  - get me your late work by the end of Thursday with no penalty. I will start deducting points beginning at 12a Friday morning.<br /><br />
+	  <span class="weekly2">Oct 09::</span> <br />
+	   - HACKER HOURS! 12-3p in the HYBRID LAB.<br /> 
+	  - Come get help with assignments, meet programmers at all levels, help others with their code, mess with Git and GitHub!
+	 <br /><br />
 	 <span class="weekly2">Oct 12::</span> <br />
 	 <p>
-		  
-		  
+		  		  
 		 <br />BEFORE CLASS:<br />
 		 Read:<br />
-		 Do:
+		  - from James Gleick, Information: A History, A Theory, a Flood: <a href="media/gleick_ch7.pdf">Ch7/ Information Theory</a><br />
+		  - About <a href="http://www.git-scm.com/book/en/v1/Git-Branching">Git Branching</a><br />
+		  - Ben Fry, <a href="media/fry_visualizing_data_ch5.pdf">Ch5, Connections and Correlations</a><br />
+		 Do:<br />
+		 - For your A1e visualization you have 3 options to appraoch your selfie. 1) You can go back to the <em>acquire</em> step (defined by Ben Fry) and use new data from your digital data selfie to make a new visualization (possibly using the connections and correlations code above), or 2) you can <em>filter</em> data you've already been working on to generate a more meaningful visualization, or 3) you may be ready to <em>refine</em> your visualization and add more interaction. Add your work to the <a href="https://github.com/SCIMA-300/A1e">A1e repository before class</a><br /> 
 		 
+		 <br />IN CLASS:<br />
+		  <em>for the first half of class::</em> <br />
+		   - 1) work out any final issues you have with A1-A1e. Refine and add interactivity and/ or movement with whatever code you are working on.<br />
+		  - 2) consider directionality. Using illustrator, pop-ups within Processing, or simple shapes and lines (that draw for a TSV file or not), demonstrate the directions of your messages. Add your work to the c6 github repository, or zip up and email.<br />
+		  <em>for the second half of class::</em><br />
+		  - 3) start thinking about how to organize your A2 data
 	 </p>
 	 	 
 	 <span class="weekly2">Oct 19::</span> <br />
 	 <p>
-		Analog data, time series<br />
+		Analog/ non-digital communications/ transmissions<br />
 		
 		 <br />BEFORE CLASS:<br />
-		 Read:<br />
-		 Do:
+		  - Read: Warren Sack, <a href="media/sack_pspdsc.pdf">Public Space, Public Discussion and Social Computing</a><br />
+		  - Review: James Gleick, Information: A History, A Theory, a Flood: <a href="media/gleick_ch7.pdf">Ch7/ Information Theory</a>
+		 <br /><br />
+		 Do:<br />
+		 <span class="weekly3">Assignment 2: </span><br />
+			  - A2a :: Analog Data Selfie :: <br />
+			  - Visualize your analog communications: Document your analog communications for a 24 hour time period. How do you communicate to drivers and bikers when crossing the street on foot, when ordering coffee in a busy shop, or late at night in a rough neighborhood. Consider vocal and non vocal communications. You may use some categories/ metadata that you used for your digital observations, but you will also need to add new ones. Note the difficulty in establishing metadata categories for non-digital communications. Organize your categories in a spreadsheet, TSV, or CSV as in A1, label A2_lastname_firstname and put in GitHub or zip up and email to professor before class.
 	 </p>
 		 
 
 
 	 <span class="weekly2">Oct 26::</span><br />	
 	 <p>
+		 Analog data<br />
 		 
- 	 	 History<br />
- 		 Information networks<br />
-
-	 
 		 <br />BEFORE CLASS:<br />
 		 Read:<br />
 		 Do:
 	 </p>
-	  <h3>Unit two, Networks and Systems: History and Value</h3>
+	 
 	 <span class="weekly2">Nov 02::</span> <br />
 	 <p>
-	 	 History<br />
-		 Visualizing networks<br />
-		 Studio<br />
+	 	  Analog data<br />
 		 
 		 <br />BEFORE CLASS:<br />
 		 Read:<br />
 		 Do:
 	 </p>
+	 
 	 <span class="weekly2">Nov 09::</span><br />
 	 <p>
-		 
-		 Textbook exercises
+ 	 	Digital and Analog data selfies combined<br />
 		 
 		 <br />BEFORE CLASS:<br />
 		 Read:<br />
 		 Do:
 	 </p>
-	 
-	 <span class="weekly3">Assignment 3: </span><br />
-	 
-	 Systems.<br /><br />
+	 	 
 	 
 	 <span class="weekly2">Nov 16::</span><br />
 	 <p>
-	 	 Systems<br />
-		 Ecosystems<br />
-		
+	
+		Digital and Analog data selfies combined<br />
 		 <br />BEFORE CLASS:<br />
 		 Read:<br />
 		 Do:
@@ -207,8 +253,9 @@
 	 <span class="weekly2">Nov 23::</span><br />
 	 <p>
 		 
-		 Systems<br />
-		 Ecosystems<br />
+	 	 History<br />
+		 Visualizing networks and systems<br />
+		 Studio<br />
 		 
 		 <br />BEFORE CLASS:<br />
 		 Read:<br />
@@ -216,8 +263,8 @@
 	 </p>
 	 <span class="weekly2">Nov 30::</span><br />
 	 <p>
-		 Systems<br />
-		 Ecosystems<br />
+   	 Networks cont<br />
+   	  Textbook exercises<br />
 		 
 		 <br />BEFORE CLASS:<br />
 		 Read:<br />
